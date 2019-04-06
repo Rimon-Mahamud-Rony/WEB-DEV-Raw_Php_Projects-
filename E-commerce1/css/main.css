@@ -1,0 +1,128 @@
+body{
+	padding-top: 0px; 
+	margin: 0;
+	background-color: #aaa2a2;
+}
+
+#headerWrapper{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	/*overflow: hidden;*/
+	height: 600px;
+	background-image: url("../images/headerlogo/bgp.jpg");
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin-bottom: -25px; 
+}
+
+#male{
+	position: absolute;
+	width: 17%;
+	height: 350px;
+	background-image: url("../images/headerlogo/male.jpg");
+	background-size: auto 350px;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	top: 250px;
+	right:60px;
+	/*border-radius: 15%;*/
+	box-shadow: 10px 10px 5px 10px grey;
+
+}
+#female{
+	position: absolute;
+	width: 17%;
+	height: 350px;
+	background-image: url("../images/headerlogo/female.jpg");
+	background-size: auto 350px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	top: 250px;
+	left:60px;
+	/*border-radius: 15%;*/
+	box-shadow: 10px 10px 5px 10px grey;
+
+}
+.img-thumb
+{
+	width:auto;
+	height: 200px;
+}
+pwel
+{
+	color: red;
+  text-shadow: 3px 3px 3px black, 0 0 25px blue, 0 0 8px darkblue;
+  font-size: 40px;
+  margin-top: 10%;
+
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+#footer
+{
+	margin-bottom: -10px;
+}
+img.details
+{
+	width: 80%;
+	margin: 15px auto;
+
+}
+.table-auto{
+	width: auto;
+	margin:0 auto;
+}
+
+.saved-image img{
+	width: 70%;
+	height: auto;
+}
+#login-form{
+	width: 30%;
+	height: 80%;
+	border:  2px solid #000;
+	border-radius:15px; 
+	box-shadow:10px 10px 20px 20px black;
+	margin : 7% auto;
+	padding: 15px;
+	color: white;
+	/*background-color: #5D6D7E;*/
+}
+#login-form label{
+	background-color: #5D6D7E;
+	border-radius: 5px;
+	padding: 1.5%;
+}
+
+#login-form p :hover {
+	color: red;
+}
+
+#add-product-btn{
+	margin-top: -35px;
+}
