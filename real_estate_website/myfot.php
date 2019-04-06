@@ -1,0 +1,1 @@
+<footer class="col-md-12 text-center" id="footer" style="background-color: #253856; color: white;text-align: center;">&copy;All rights reserverd by author of this page, Rimon Mahamud Rony </footer>
